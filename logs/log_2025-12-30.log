@@ -1,0 +1,20 @@
+2025-12-30 10:19:13,217 - INFO - Data Processing initalized...
+2025-12-30 10:19:13,398 - INFO - Data loaded sucesfully...
+2025-12-30 10:19:13,474 - INFO - All basic data preprocessing done..
+2025-12-30 10:19:13,597 - INFO - All things saved sucesfully for Data processing..
+2025-12-30 10:24:21,520 - INFO - Model Training initialized...
+2025-12-30 10:24:21,545 - INFO - Data loaded successfully
+2025-12-30 10:24:21,843 - INFO - Model trained and saved at artifacts/models\model.pkl
+2025-12-30 10:24:21,846 - INFO - Accuracy  : 0.91655
+2025-12-30 10:24:21,851 - INFO - Precision : 0.914972438439482
+2025-12-30 10:24:21,852 - INFO - Recall    : 0.91655
+2025-12-30 10:24:21,852 - INFO - F1 Score  : 0.9156103493286444
+2025-12-30 10:24:21,852 - INFO - Model evaluation completed
+2025-12-30 10:42:50,732 - INFO - Model Training initialized...
+2025-12-30 10:42:50,756 - INFO - Data loaded successfully
+2025-12-30 10:42:51,114 - INFO - Model trained and saved at artifacts/models\model.pkl
+2025-12-30 10:42:51,116 - INFO - Accuracy  : 0.91655
+2025-12-30 10:42:51,116 - INFO - Precision : 0.914972438439482
+2025-12-30 10:42:51,123 - INFO - Recall    : 0.91655
+2025-12-30 10:42:51,126 - INFO - F1 Score  : 0.9156103493286444
+2025-12-30 10:42:51,126 - INFO - Model evaluation completed
