@@ -1,14 +1,14 @@
 pipeline {
     agent any
     environment {
-        DOCKER_HUB_REPO = "dataguru97/gitops-project"
+        DOCKER_HUB_REPO = "jithendrareddy992-gif/GITOPS-MLOP-PROJECTS"
         DOCKER_HUB_CREDENTIALS_ID = "gitops-dockerhub-token"
     }
     stages {
         stage('Checkout Github') {
             steps {
                 echo 'Checking out code from GitHub...'
-		        checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'github-token', url: 'https://github.com/data-guru0/GITOPS-PROJECT-9.git']])
+		        checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'github-token', url:'https://github.com/jithendrareddy992-gif/GITOPS-MLOP-PROJECTS/commit/addfdf3479f2926bb36c2ba7ca3b58a81c90b038#diff-8c' ]])
 		    }
         }        
         stage('Build Docker Image') {
