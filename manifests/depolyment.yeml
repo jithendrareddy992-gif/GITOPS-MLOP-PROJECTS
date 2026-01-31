@@ -6,14 +6,14 @@ spec:
   replicas: 2
   selector:
     matchLabels:
-      app: mlops
+      app: mlops-app
   template:
     metadata:
       labels:
-        app: mlops
+        app: mlops-app
     spec:
       containers:
-      - name: mlops
-        image: nginx
+      - name: mlops-app
+        image: jithendrareddy992-gif/GITOPS-MLOP-PROJECTS:latest
         ports:
-        - containerPort: 80
+        - containerPort: 5000
