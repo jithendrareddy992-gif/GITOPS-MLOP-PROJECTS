@@ -2,9 +2,9 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: mlops-app
-  namespace: default
+  namespace: argocd
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: mlops-app
@@ -14,8 +14,7 @@ spec:
         app: mlops-app
     spec:
       containers:
-      - name: mlops-container
-        image: nginx
+      - name: mlops-app
+        image: jithendrareddy992-gif/gitops-mlop-projects:latest
         ports:
-        - containerPort: 80
-
+        - containerPort: 5000
